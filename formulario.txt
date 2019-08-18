@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<form>
+
+
+Texto simple:<input type= "text" name="textosimple"><input><br/>
+
+Seleccion: <select name ="seleccion">
+<option value="opcion1">opcion1<option>
+<option value="opcion2">opcion2<option>
+<option value="opcion3">opcion3<option>
+<option value="opcion4">opcion4<option>
+<option value="opcion5">opcion5<option>
+</select><br/>
+
+Casilla de verificacion: <input type= "checkbox" name="casilla"><input><br/>
+Radial: <br/><input type= "radio" name="radial" value="1"><input><br/>
+<input type= "radio" name="radial" value="2"><input><br/>
+<input type= "radio" name="radial" value="3"><input><br/>
+<input type= "area"><input><br/>
+<textarea rows="3" cols="20" name="textolargo"></textarea>
+<input type= "range" name="rango" min="0" max="10"><input><br/>
+<input type= "submit" value="enviar"><input><br/>
+
+
+</form>
+</body>
+
+
+</html>
